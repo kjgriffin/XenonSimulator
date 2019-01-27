@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xenon", "Xenon\Xenon.csproj", "{516C3AB5-C9D6-4963-98C9-455AC2CC1F47}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XenonPluginFramework", "XenonPluginFramework\XenonPluginFramework.csproj", "{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XenonCorePlugins", "XenonPlugins\XenonCorePlugins.csproj", "{58FF91C4-3FEF-4547-BD4E-0AB6557DB81A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XenonSimCore", "XenonSimCore\XenonSimCore.csproj", "{7BB0AEE9-D3ED-4D5C-AF49-EB84247CD734}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XenonSimulator", "XenonSimulator\XenonSimulator.csproj", "{AF3E9B4F-E3D1-4ACF-A31E-A52958ED8485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XenonBuildEngine", "XenonBuildEngine\XenonBuildEngine.csproj", "{188805C8-6607-4044-8B1A-F41F46C10542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{516C3AB5-C9D6-4963-98C9-455AC2CC1F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516C3AB5-C9D6-4963-98C9-455AC2CC1F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516C3AB5-C9D6-4963-98C9-455AC2CC1F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FF91C4-3FEF-4547-BD4E-0AB6557DB81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FF91C4-3FEF-4547-BD4E-0AB6557DB81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FF91C4-3FEF-4547-BD4E-0AB6557DB81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FF91C4-3FEF-4547-BD4E-0AB6557DB81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB0AEE9-D3ED-4D5C-AF49-EB84247CD734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB0AEE9-D3ED-4D5C-AF49-EB84247CD734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB0AEE9-D3ED-4D5C-AF49-EB84247CD734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB0AEE9-D3ED-4D5C-AF49-EB84247CD734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3E9B4F-E3D1-4ACF-A31E-A52958ED8485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3E9B4F-E3D1-4ACF-A31E-A52958ED8485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3E9B4F-E3D1-4ACF-A31E-A52958ED8485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3E9B4F-E3D1-4ACF-A31E-A52958ED8485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188805C8-6607-4044-8B1A-F41F46C10542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188805C8-6607-4044-8B1A-F41F46C10542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188805C8-6607-4044-8B1A-F41F46C10542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188805C8-6607-4044-8B1A-F41F46C10542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

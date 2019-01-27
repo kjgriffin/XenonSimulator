@@ -34,6 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.Composition.Registration" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,6 +51,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XenonBuildEngine\XenonBuildEngine.csproj">
+      <Project>{188805C8-6607-4044-8B1A-F41F46C10542}</Project>
+      <Name>XenonBuildEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XenonPluginFramework\XenonPluginFramework.csproj">
+      <Project>{D1572B44-98DA-4EC8-B50B-CB2D61E61E3C}</Project>
+      <Name>XenonPluginFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XenonPlugins\XenonCorePlugins.csproj">
+      <Project>{58ff91c4-3fef-4547-bd4e-0ab6557db81a}</Project>
+      <Name>XenonCorePlugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XenonSimCore\XenonSimCore.csproj">
+      <Project>{7bb0aee9-d3ed-4d5c-af49-eb84247cd734}</Project>
+      <Name>XenonSimCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XenonSimulator\XenonSimulator.csproj">
+      <Project>{af3e9b4f-e3d1-4acf-a31e-a52958ed8485}</Project>
+      <Name>XenonSimulator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
